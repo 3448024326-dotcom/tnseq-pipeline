@@ -1,0 +1,44 @@
+# Raw sequencing data and references
+data/
+reference/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.fasta
+*.fasta.gz
+*.fa
+*.fa.gz
+*.fna
+*.fna.gz
+
+# Alignment files and indexes
+*.sam
+*.bam
+*.bai
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
+
+# Pipeline outputs and logs
+results/
+*.log
+nohup.out
+
+# Python and R temporary files
+__pycache__/
+*.py[cod]
+.Rhistory
+.RData
+.Rproj.user/
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Keep the small synthetic example under version control.
+!example/example.fastq

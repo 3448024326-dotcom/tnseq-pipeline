@@ -1,0 +1,11 @@
+name: tnseq-pipeline
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11.15
+  - cutadapt=5.2
+  - bwa=0.7.19
+  - samtools=1.23.1
+  - htslib=1.23.1
+  - r-base=4.5.2

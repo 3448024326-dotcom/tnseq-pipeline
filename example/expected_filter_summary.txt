@@ -1,0 +1,1 @@
+FASTQ filtering completed: total=2, kept=1, fraction=50.00%
